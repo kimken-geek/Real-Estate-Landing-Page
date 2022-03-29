@@ -182,7 +182,7 @@ section .bannersection{
 }
 .h2heads{
     text-align: center;
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid black;
     text-transform: uppercase;
 }
 .whyuscontainer{
@@ -211,6 +211,148 @@ section .bannersection{
 .pcontent{
     text-align: center;
 }
-.aboutcontent{
+
+#about {
+    width:100%;
+    margin-top:20px;
+    height: 100%;
+    
+}
+.aboutcontent {
     display: flex;
+    flex-wrap:wrap;
+
+}
+.textsection {
+    flex: 1;
+    max-width: 500px;
+    min-width:s 300px;
+    
+}
+.textsection h3{
+    line-height: 3rem;
+    text-transform: uppercase;
+    margin-left: 10%;
+}
+.textsection p{
+    line-height: 1.4;
+    margin:10px;
+}
+.textsection a{
+    display:inline-block;
+    text-decoration: none;
+    color:white;
+    background:rgb(10, 4, 4);
+    padding: 10px 20px;
+    margin-top:15px;
+    border-radius: 3px;
+    box-shadow: 4px 5px 10px #ddd;
+    transition: 0.3s ease-in-out;
+}
+.imagesection{
+    flex: 1;
+    min-width: 300px;
+    min-height: 300px;
+    flex-wrap: wrap;
+}
+.image-box{
+    display: flex;
+    min-width:300px;
+    cursor:pointer;
+    overflow:hidden;
+    padding: 10px;
+    margin:10px;
+    box-shadow:4px 5px 10px #ddd;
+    transition: 0.5s ease-in-out
+}
+.imagesection img{
+    width: 50%;
+    height: 240px;
+    display: block;
+    object-fit: cover;
+    padding: 5px;
+    margin:5px;
+}
+.image-box:hover{
+    box-shadow: none;
+}
+
+
+#properties {
+    width:100%;
+    margin-top:20px;
+}
+.propertycontent{
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 20px;
+}
+.propertycontent a{
+    display:inline-block;
+    text-decoration: none;
+    color:white;
+    background:#555;
+    padding: 10px 20px;
+    margin-top:15px;
+    border-radius: 3px;
+    box-shadow: 4px 5px 10px #ddd;
+    transition: 0.3s ease-in-out;
+}
+.box {
+    flex:1;
+    min-width:300px;
+    min-height:500px;
+    overflow:hidden;
+    margin:15px;
+    padding:15px;
+    box-shadow: 4px 5px 10px #ddd;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.box:hover{
+    box-shadow: none;
+}
+.box img{
+    width:100%;
+    height:300px;
+    display:block;
+    object-fit: cover;
+}
+.box h3{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top:10px;
+}
+.box span{
+    color:rgb(0, 255, 13);
+    padding-right: 10px;
+}
+.box p{
+    line-height: 1.4;
+    margin: 5px 0;
+}
+
+#properties a, .view a{
+    text-decoration:none;
+    color:white;
+    background:#555;
+    display:block;
+    text-align: center;
+    height:40px;
+    line-height:40px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    
+}
+.view{
+    text-decoration:none;
+    color:white;
+    background:#555;
+    display:block;
+    text-align: center;
+    height:20px;
+    line-height:20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    width:25%;
 }
