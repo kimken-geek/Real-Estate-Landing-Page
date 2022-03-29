@@ -180,3 +180,37 @@ section .bannersection{
     background:crimson;
 
 }
+.h2heads{
+    text-align: center;
+    border-bottom: 1px solid #555;
+    text-transform: uppercase;
+}
+.whyuscontainer{
+    display: flex;
+    background-color: #E6BF83;
+}
+.whyuscontent{
+    flex-direction: row;
+    margin-right: 20px;
+    border: 2px solid #303030;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-bottom:50px;
+    margin-top:50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.center {
+    text-align: center;
+    width:100%;
+}
+.h3content{
+    text-align: center;
+}
+.pcontent{
+    text-align: center;
+}
+.aboutcontent{
+    display: flex;
+}
